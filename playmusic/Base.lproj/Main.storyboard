@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="playmusic" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sin-cancion.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="RA5-sa-icN">
+                                <rect key="frame" x="126" y="53" width="348" height="326"/>
+                            </imageView>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="Y94-pd-pNU">
+                                <rect key="frame" x="124" y="444" width="352" height="31"/>
+                                <color key="backgroundColor" red="0.47414921469999999" green="0.088704461159999998" blue="0.060762797180000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <action selector="accionVolumen:" destination="BYZ-38-t0r" eventType="valueChanged" id="4ST-cb-fnO"/>
+                                </connections>
+                            </slider>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="exS-hu-Acl">
+                                <rect key="frame" x="126" y="527" width="66" height="30"/>
+                                <color key="backgroundColor" red="0.6595017997" green="0.12338046749999999" blue="0.084515955870000006" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="James B."/>
+                                <connections>
+                                    <action selector="accionJames:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WN1-zW-yll"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zI2-6J-iDY">
+                                <rect key="frame" x="196" y="527" width="66" height="30"/>
+                                <color key="backgroundColor" red="0.6595017997" green="0.12338046749999999" blue="0.084515955870000006" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="Barry W."/>
+                                <connections>
+                                    <action selector="accionBarry:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1ZF-uw-PYg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3MS-KD-wMi">
+                                <rect key="frame" x="267" y="527" width="66" height="30"/>
+                                <color key="backgroundColor" red="0.6595017997" green="0.12338046749999999" blue="0.084515955870000006" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="Beyonce"/>
+                                <connections>
+                                    <action selector="accionBeyonce:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wQF-Mk-Fqh"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NF6-Ko-rkX">
+                                <rect key="frame" x="338" y="527" width="66" height="30"/>
+                                <color key="backgroundColor" red="0.6595017997" green="0.12338046749999999" blue="0.084515955870000006" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="Queen"/>
+                                <connections>
+                                    <action selector="accionQueen:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2qw-Sb-DRl"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EZZ-0w-nsp">
+                                <rect key="frame" x="408" y="527" width="66" height="30"/>
+                                <color key="backgroundColor" red="0.6595017997" green="0.12338046749999999" blue="0.084515955870000006" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="Tina T."/>
+                                <connections>
+                                    <action selector="accionTina:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Oav-WW-Ngy"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oYr-To-W6z">
+                                <rect key="frame" x="126" y="489" width="66" height="30"/>
+                                <color key="backgroundColor" red="0.47414921465968585" green="0.088704461156218189" blue="0.060762797184248853" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="Tocar &gt;"/>
+                                <connections>
+                                    <action selector="accionTocar:" destination="BYZ-38-t0r" eventType="touchUpInside" id="h5O-ZR-5L6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yq9-5B-yDZ">
+                                <rect key="frame" x="196" y="489" width="64" height="30"/>
+                                <color key="backgroundColor" red="0.47414921465968585" green="0.088704461156218189" blue="0.060762797184248853" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="Pausar ||"/>
+                                <connections>
+                                    <action selector="accionPausar:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wIp-WP-rld"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LJm-jT-E1P">
+                                <rect key="frame" x="267" y="489" width="66" height="30"/>
+                                <color key="backgroundColor" red="0.47414921465968585" green="0.088704461156218189" blue="0.060762797184248853" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="Detener ]"/>
+                                <connections>
+                                    <action selector="accionDetener:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aRh-Jl-Sla"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kEj-3i-Te0">
+                                <rect key="frame" x="408" y="489" width="66" height="30"/>
+                                <color key="backgroundColor" red="0.47414921469999999" green="0.088704461159999998" blue="0.060762797180000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="Shuffle  ::"/>
+                                <connections>
+                                    <action selector="accionShuffle:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Sg6-Pd-qte"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Canción:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gpi-1j-gNt">
+                                <rect key="frame" x="126" y="418" width="77" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.47414921469999999" green="0.088704461159999998" blue="0.060762797180000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ninguno" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ui3-1j-YSM">
+                                <rect key="frame" x="196" y="398" width="278" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.6595017997" green="0.12338046749999999" blue="0.084515955870000006" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ninguna" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ms4-xg-YAm">
+                                <rect key="frame" x="196" y="418" width="278" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.6595017997" green="0.12338046749999999" blue="0.084515955870000006" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Artista:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4u4-50-NFU">
+                                <rect key="frame" x="126" y="398" width="66" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.47414921469999999" green="0.088704461159999998" blue="0.060762797180000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Ui3-1j-YSM" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="35" id="1ET-5V-No4"/>
+                            <constraint firstItem="NF6-Ko-rkX" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="71" id="1SM-qv-YFh"/>
+                            <constraint firstItem="RA5-sa-icN" firstAttribute="leading" secondItem="4u4-50-NFU" secondAttribute="leading" id="1wv-uf-Mmc"/>
+                            <constraint firstItem="Yq9-5B-yDZ" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="204" id="2Kf-WG-MFw"/>
+                            <constraint firstItem="kEj-3i-Te0" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="204" id="31W-mX-AX4"/>
+                            <constraint firstItem="oYr-To-W6z" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-141" id="6Jn-iX-lk1"/>
+                            <constraint firstItem="Yq9-5B-yDZ" firstAttribute="leading" secondItem="zI2-6J-iDY" secondAttribute="leading" id="6T3-mG-GSX"/>
+                            <constraint firstItem="Ui3-1j-YSM" firstAttribute="leading" secondItem="ms4-xg-YAm" secondAttribute="leading" id="8FG-x3-34w"/>
+                            <constraint firstItem="oYr-To-W6z" firstAttribute="leading" secondItem="exS-hu-Acl" secondAttribute="leading" id="I01-JK-vSe"/>
+                            <constraint firstItem="oYr-To-W6z" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="204" id="Jep-pK-Lfl"/>
+                            <constraint firstItem="EZZ-0w-nsp" firstAttribute="leading" secondItem="NF6-Ko-rkX" secondAttribute="trailing" constant="4" id="JlB-Fr-skV"/>
+                            <constraint firstItem="4u4-50-NFU" firstAttribute="baseline" secondItem="Ui3-1j-YSM" secondAttribute="baseline" id="LNE-JB-fJw"/>
+                            <constraint firstItem="ms4-xg-YAm" firstAttribute="trailing" secondItem="Y94-pd-pNU" secondAttribute="trailing" id="Lwg-uV-nWd"/>
+                            <constraint firstItem="zI2-6J-iDY" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-71" id="M8I-R7-7xK"/>
+                            <constraint firstItem="Gpi-1j-gNt" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-135.5" id="MeF-zA-oum"/>
+                            <constraint firstItem="ms4-xg-YAm" firstAttribute="leading" secondItem="Yq9-5B-yDZ" secondAttribute="leading" id="PnU-Kq-M8w"/>
+                            <constraint firstItem="Gpi-1j-gNt" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="128.5" id="SLV-LP-jkG"/>
+                            <constraint firstItem="EZZ-0w-nsp" firstAttribute="leading" secondItem="kEj-3i-Te0" secondAttribute="leading" id="Uvp-RZ-T76"/>
+                            <constraint firstItem="3MS-KD-wMi" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="242" id="VFq-HL-bwL"/>
+                            <constraint firstItem="NF6-Ko-rkX" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="242" id="Xdb-NZ-qm6"/>
+                            <constraint firstItem="Yq9-5B-yDZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-72" id="YUa-ue-keE"/>
+                            <constraint firstItem="Y94-pd-pNU" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="159" id="a5U-Sl-bgc"/>
+                            <constraint firstItem="kEj-3i-Te0" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="141" id="a64-cT-zKr"/>
+                            <constraint firstItem="4u4-50-NFU" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-141" id="ara-bN-6uw"/>
+                            <constraint firstItem="Ui3-1j-YSM" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="108.5" id="cPk-dZ-Px5"/>
+                            <constraint firstItem="4u4-50-NFU" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="108.5" id="eZZ-lt-Tmd"/>
+                            <constraint firstItem="exS-hu-Acl" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-141" id="ejg-DJ-Avt"/>
+                            <constraint firstItem="Gpi-1j-gNt" firstAttribute="leading" secondItem="4u4-50-NFU" secondAttribute="leading" id="fI6-vc-aJp"/>
+                            <constraint firstItem="EZZ-0w-nsp" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="141" id="fqG-cL-dSy"/>
+                            <constraint firstItem="3MS-KD-wMi" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="gGy-Cs-bzF"/>
+                            <constraint firstItem="LJm-jT-E1P" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="h7P-4l-jJJ"/>
+                            <constraint firstItem="4u4-50-NFU" firstAttribute="top" secondItem="RA5-sa-icN" secondAttribute="bottom" constant="19" id="irO-ir-EBc"/>
+                            <constraint firstItem="exS-hu-Acl" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="242" id="m3j-HK-eTL"/>
+                            <constraint firstItem="Ui3-1j-YSM" firstAttribute="leading" secondItem="4u4-50-NFU" secondAttribute="trailing" constant="4" id="pgi-3L-4qR"/>
+                            <constraint firstItem="LJm-jT-E1P" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="204" id="qBX-V5-Okg"/>
+                            <constraint firstItem="Y94-pd-pNU" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="rgo-JC-gqy"/>
+                            <constraint firstItem="zI2-6J-iDY" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="242" id="rke-eM-5FV"/>
+                            <constraint firstItem="Y94-pd-pNU" firstAttribute="leading" secondItem="Gpi-1j-gNt" secondAttribute="leading" id="ryn-lA-0Cs"/>
+                            <constraint firstItem="ms4-xg-YAm" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="35" id="uqH-1Q-Qyp"/>
+                            <constraint firstItem="3MS-KD-wMi" firstAttribute="leading" secondItem="zI2-6J-iDY" secondAttribute="trailing" constant="5" id="vVW-Mq-Exj"/>
+                            <constraint firstItem="RA5-sa-icN" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-84" id="wF9-0M-rxc"/>
+                            <constraint firstItem="3MS-KD-wMi" firstAttribute="leading" secondItem="LJm-jT-E1P" secondAttribute="leading" id="x9Y-FJ-THz"/>
+                            <constraint firstItem="ms4-xg-YAm" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="128.5" id="xDM-5S-xdi"/>
+                            <constraint firstItem="EZZ-0w-nsp" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="242" id="ytS-mb-mJC"/>
+                            <constraint firstItem="Y94-pd-pNU" firstAttribute="leading" secondItem="oYr-To-W6z" secondAttribute="leading" id="zLx-Ng-CWH"/>
+                            <constraint firstItem="RA5-sa-icN" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="zYl-3N-9nm"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="outArtista" destination="Ui3-1j-YSM" id="2Od-AA-RPU"/>
+                        <outlet property="outCancion" destination="ms4-xg-YAm" id="HRe-9F-PS8"/>
+                        <outlet property="outPortada" destination="RA5-sa-icN" id="y04-XL-BhT"/>
+                        <outlet property="outVolumen" destination="Y94-pd-pNU" id="Nsh-CO-0kO"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="245" y="313"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="sin-cancion.jpg" width="400" height="400"/>
+    </resources>
+</document>

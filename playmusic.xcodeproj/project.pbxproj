@@ -1,0 +1,339 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C6B7A2321C29D83B00FC39B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B7A2311C29D83B00FC39B2 /* AppDelegate.swift */; };
+		C6B7A2341C29D83B00FC39B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B7A2331C29D83B00FC39B2 /* ViewController.swift */; };
+		C6B7A2371C29D83B00FC39B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6B7A2351C29D83B00FC39B2 /* Main.storyboard */; };
+		C6B7A2391C29D83B00FC39B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6B7A2381C29D83B00FC39B2 /* Assets.xcassets */; };
+		C6B7A23C1C29D83B00FC39B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6B7A23A1C29D83B00FC39B2 /* LaunchScreen.storyboard */; };
+		C6B7A24E1C29E3D700FC39B2 /* 1 - Tina Turner - Simply the best.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C6B7A2431C29E3D700FC39B2 /* 1 - Tina Turner - Simply the best.mp3 */; };
+		C6B7A24F1C29E3D700FC39B2 /* 2 - James Brown - I feel good.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C6B7A2441C29E3D700FC39B2 /* 2 - James Brown - I feel good.mp3 */; };
+		C6B7A2501C29E3D700FC39B2 /* 3 - Queen - I want to break free.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C6B7A2451C29E3D700FC39B2 /* 3 - Queen - I want to break free.mp3 */; };
+		C6B7A2511C29E3D700FC39B2 /* 4 - Beyonce - All I could do is cry.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C6B7A2461C29E3D700FC39B2 /* 4 - Beyonce - All I could do is cry.mp3 */; };
+		C6B7A2521C29E3D700FC39B2 /* 5 - Barry White - My First My Last My Everything.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C6B7A2471C29E3D700FC39B2 /* 5 - Barry White - My First My Last My Everything.mp3 */; };
+		C6B7A2531C29E3D700FC39B2 /* Barry White.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C6B7A2481C29E3D700FC39B2 /* Barry White.jpg */; };
+		C6B7A2541C29E3D700FC39B2 /* Beyonce.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C6B7A2491C29E3D700FC39B2 /* Beyonce.jpg */; };
+		C6B7A2551C29E3D700FC39B2 /* James Brown.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C6B7A24A1C29E3D700FC39B2 /* James Brown.jpg */; };
+		C6B7A2561C29E3D700FC39B2 /* Queen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C6B7A24B1C29E3D700FC39B2 /* Queen.jpg */; };
+		C6B7A2571C29E3D700FC39B2 /* sin-cancion.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C6B7A24C1C29E3D700FC39B2 /* sin-cancion.jpg */; };
+		C6B7A2581C29E3D700FC39B2 /* Tina Turner.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C6B7A24D1C29E3D700FC39B2 /* Tina Turner.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C6B7A22E1C29D83B00FC39B2 /* playmusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = playmusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6B7A2311C29D83B00FC39B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C6B7A2331C29D83B00FC39B2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C6B7A2361C29D83B00FC39B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C6B7A2381C29D83B00FC39B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C6B7A23B1C29D83B00FC39B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C6B7A23D1C29D83B00FC39B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6B7A2431C29E3D700FC39B2 /* 1 - Tina Turner - Simply the best.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "1 - Tina Turner - Simply the best.mp3"; sourceTree = "<group>"; };
+		C6B7A2441C29E3D700FC39B2 /* 2 - James Brown - I feel good.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "2 - James Brown - I feel good.mp3"; sourceTree = "<group>"; };
+		C6B7A2451C29E3D700FC39B2 /* 3 - Queen - I want to break free.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "3 - Queen - I want to break free.mp3"; sourceTree = "<group>"; };
+		C6B7A2461C29E3D700FC39B2 /* 4 - Beyonce - All I could do is cry.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "4 - Beyonce - All I could do is cry.mp3"; sourceTree = "<group>"; };
+		C6B7A2471C29E3D700FC39B2 /* 5 - Barry White - My First My Last My Everything.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "5 - Barry White - My First My Last My Everything.mp3"; sourceTree = "<group>"; };
+		C6B7A2481C29E3D700FC39B2 /* Barry White.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Barry White.jpg"; sourceTree = "<group>"; };
+		C6B7A2491C29E3D700FC39B2 /* Beyonce.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Beyonce.jpg; sourceTree = "<group>"; };
+		C6B7A24A1C29E3D700FC39B2 /* James Brown.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "James Brown.jpg"; sourceTree = "<group>"; };
+		C6B7A24B1C29E3D700FC39B2 /* Queen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Queen.jpg; sourceTree = "<group>"; };
+		C6B7A24C1C29E3D700FC39B2 /* sin-cancion.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "sin-cancion.jpg"; sourceTree = "<group>"; };
+		C6B7A24D1C29E3D700FC39B2 /* Tina Turner.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Tina Turner.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C6B7A22B1C29D83B00FC39B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C6B7A2251C29D83B00FC39B2 = {
+			isa = PBXGroup;
+			children = (
+				C6B7A2301C29D83B00FC39B2 /* playmusic */,
+				C6B7A22F1C29D83B00FC39B2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C6B7A22F1C29D83B00FC39B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C6B7A22E1C29D83B00FC39B2 /* playmusic.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6B7A2301C29D83B00FC39B2 /* playmusic */ = {
+			isa = PBXGroup;
+			children = (
+				C6B7A2431C29E3D700FC39B2 /* 1 - Tina Turner - Simply the best.mp3 */,
+				C6B7A2441C29E3D700FC39B2 /* 2 - James Brown - I feel good.mp3 */,
+				C6B7A2451C29E3D700FC39B2 /* 3 - Queen - I want to break free.mp3 */,
+				C6B7A2461C29E3D700FC39B2 /* 4 - Beyonce - All I could do is cry.mp3 */,
+				C6B7A2471C29E3D700FC39B2 /* 5 - Barry White - My First My Last My Everything.mp3 */,
+				C6B7A2481C29E3D700FC39B2 /* Barry White.jpg */,
+				C6B7A2491C29E3D700FC39B2 /* Beyonce.jpg */,
+				C6B7A24A1C29E3D700FC39B2 /* James Brown.jpg */,
+				C6B7A24B1C29E3D700FC39B2 /* Queen.jpg */,
+				C6B7A24C1C29E3D700FC39B2 /* sin-cancion.jpg */,
+				C6B7A24D1C29E3D700FC39B2 /* Tina Turner.jpg */,
+				C6B7A2311C29D83B00FC39B2 /* AppDelegate.swift */,
+				C6B7A2331C29D83B00FC39B2 /* ViewController.swift */,
+				C6B7A2351C29D83B00FC39B2 /* Main.storyboard */,
+				C6B7A2381C29D83B00FC39B2 /* Assets.xcassets */,
+				C6B7A23A1C29D83B00FC39B2 /* LaunchScreen.storyboard */,
+				C6B7A23D1C29D83B00FC39B2 /* Info.plist */,
+			);
+			path = playmusic;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C6B7A22D1C29D83B00FC39B2 /* playmusic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6B7A2401C29D83B00FC39B2 /* Build configuration list for PBXNativeTarget "playmusic" */;
+			buildPhases = (
+				C6B7A22A1C29D83B00FC39B2 /* Sources */,
+				C6B7A22B1C29D83B00FC39B2 /* Frameworks */,
+				C6B7A22C1C29D83B00FC39B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = playmusic;
+			productName = playmusic;
+			productReference = C6B7A22E1C29D83B00FC39B2 /* playmusic.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C6B7A2261C29D83B00FC39B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "César Méndez";
+				TargetAttributes = {
+					C6B7A22D1C29D83B00FC39B2 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = TAW47SE752;
+					};
+				};
+			};
+			buildConfigurationList = C6B7A2291C29D83B00FC39B2 /* Build configuration list for PBXProject "playmusic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C6B7A2251C29D83B00FC39B2;
+			productRefGroup = C6B7A22F1C29D83B00FC39B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C6B7A22D1C29D83B00FC39B2 /* playmusic */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C6B7A22C1C29D83B00FC39B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6B7A2581C29E3D700FC39B2 /* Tina Turner.jpg in Resources */,
+				C6B7A2501C29E3D700FC39B2 /* 3 - Queen - I want to break free.mp3 in Resources */,
+				C6B7A23C1C29D83B00FC39B2 /* LaunchScreen.storyboard in Resources */,
+				C6B7A2391C29D83B00FC39B2 /* Assets.xcassets in Resources */,
+				C6B7A2371C29D83B00FC39B2 /* Main.storyboard in Resources */,
+				C6B7A2551C29E3D700FC39B2 /* James Brown.jpg in Resources */,
+				C6B7A2561C29E3D700FC39B2 /* Queen.jpg in Resources */,
+				C6B7A24F1C29E3D700FC39B2 /* 2 - James Brown - I feel good.mp3 in Resources */,
+				C6B7A2531C29E3D700FC39B2 /* Barry White.jpg in Resources */,
+				C6B7A2521C29E3D700FC39B2 /* 5 - Barry White - My First My Last My Everything.mp3 in Resources */,
+				C6B7A2571C29E3D700FC39B2 /* sin-cancion.jpg in Resources */,
+				C6B7A2541C29E3D700FC39B2 /* Beyonce.jpg in Resources */,
+				C6B7A24E1C29E3D700FC39B2 /* 1 - Tina Turner - Simply the best.mp3 in Resources */,
+				C6B7A2511C29E3D700FC39B2 /* 4 - Beyonce - All I could do is cry.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C6B7A22A1C29D83B00FC39B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6B7A2341C29D83B00FC39B2 /* ViewController.swift in Sources */,
+				C6B7A2321C29D83B00FC39B2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C6B7A2351C29D83B00FC39B2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6B7A2361C29D83B00FC39B2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C6B7A23A1C29D83B00FC39B2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6B7A23B1C29D83B00FC39B2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C6B7A23E1C29D83B00FC39B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C6B7A23F1C29D83B00FC39B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C6B7A2411C29D83B00FC39B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = playmusic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "xemega-apps.playmusic";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C6B7A2421C29D83B00FC39B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = playmusic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "xemega-apps.playmusic";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C6B7A2291C29D83B00FC39B2 /* Build configuration list for PBXProject "playmusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6B7A23E1C29D83B00FC39B2 /* Debug */,
+				C6B7A23F1C29D83B00FC39B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6B7A2401C29D83B00FC39B2 /* Build configuration list for PBXNativeTarget "playmusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6B7A2411C29D83B00FC39B2 /* Debug */,
+				C6B7A2421C29D83B00FC39B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C6B7A2261C29D83B00FC39B2 /* Project object */;
+}
