@@ -63,7 +63,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func accionShuffle(sender: AnyObject) {
-        let num = Int(arc4random() % 4)
+        let num = Int(arc4random() % 5)
         reproducir(num)
     }
     
